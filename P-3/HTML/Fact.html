@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../CSS/Fact.css">
+    <script src="../JS/Fact.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factor</title>
+</head>
+
+<body class="body1">
+    <header>
+        <p>Factor</p>
+    </header>
+
+
+    <article>
+        <div class="index_div">
+            <form method="dialog" action="#">
+
+                    <label for="mahsol"></label>
+                    <input type="text" name="mahsol" id="name" placeholder="Name">
+
+                    <label for="tedad"></label>
+                    <input type="text" name="tedad" id="no" placeholder="Number">
+
+                    <label for="geimat"></label>
+                    <input type="text" name="geimat" id="value" placeholder="Price">
+
+                <input type="button" value="Add" onclick="add()">
+
+            </form>
+        </div>
+
+
+        <div id="result_s">
+            <div id="no1"></div>
+        </div>
+
+
+    </article>
+
+
+    <div id="edit_b" class="hidden">
+        <div class="margin_top">
+            <label class="edit" id="ed_1" for="ed_1"></label>
+            <input type="text" class="edit" id="editing_1" placeholder="Name">
+        </div>
+        <div class="margin_top">
+            <label class="edit" id="ed_2" for="ed_2"></label>
+            <input type="text" class="edit" id="editing_2" placeholder="Number">
+        </div>
+        <div class="margin_top">
+            <label class="edit" id="ed_3" for="ed_3"></label>
+            <input type="text" class="edit" id="editing_3" placeholder="Price">
+        </div>
+        <br>
+        <div>
+            <button class="edit" id="OK" onclick="ok()">OK</button>
+            <button class="edit" id="CANCEL" onclick="cancel()">CANCEL</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
